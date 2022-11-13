@@ -1,5 +1,5 @@
 # cache
-A cache library using Redis as a storage. This library implements a locking mechanism to ensure that for concurrent requests for the same key, in case if the key is not already present in cache, a function responsible for retreiving the value from database will be called only once.
+A cache library using Redis as a storage. This library implements a locking mechanism to ensure that for concurrent requests for the same key, in case if the key is not already present in the cache, a function responsible for retreiving the value from a database will be called only once.
 
 ## Basic usage
 ```go
